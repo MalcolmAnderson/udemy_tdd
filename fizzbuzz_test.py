@@ -12,6 +12,10 @@ def fizzBuzz(value):
     return retval
 
 
+# def setup_function():
+    # print("I am in the setup_function function")
+
+
 def test_canCallFizzBuzz():
     fizzBuzz(1)
 
@@ -41,6 +45,7 @@ def test_10_should_return_Buzz():
 
 
 def test_15_should_return_FizzBuzz():
+    print("This is a bit of test code")
     assert fizzBuzz(15) == "FizzBuzz"
 
 
@@ -48,5 +53,6 @@ def test_30_should_return_FizzBuzz():
     assert fizzBuzz(30) == "FizzBuzz"
 
 
-for i in range(1, 32):
-    print(fizzBuzz(i))
+if False:
+    for i in range(1, 32):
+        print(fizzBuzz(i))
