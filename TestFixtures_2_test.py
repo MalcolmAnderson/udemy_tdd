@@ -1,3 +1,6 @@
+# use the following command to run tests
+# pytest -v -s TestFixtures_2_test.py
+
 import pytest
 
 # Test Fixture scope

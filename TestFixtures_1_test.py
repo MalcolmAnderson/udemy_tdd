@@ -1,3 +1,6 @@
+# use the following command to run tests
+# pytest -v -s TestFixtures_1_test.py
+
 import pytest
 
 
