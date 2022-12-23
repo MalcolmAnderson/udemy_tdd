@@ -13,7 +13,7 @@ def test1(setup):
 
 
 @pytest.mark.usefixtures("setup")
-def test2(setup):
+def test2():
     print("Executing test2 !")
     assert True
     # print("\nLeaving test2!")
