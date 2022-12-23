@@ -7,12 +7,13 @@ def setup():
 
 
 def test1(setup):
-    print("\nExecuting test1!")
+    print("Executing test1 !")
     assert True
-    print("\nLeaving test1!")
+    # print("\nLeaving test1!")
 
 
+@pytest.mark.usefixtures("setup")
 def test2(setup):
-    print("\nExecuting test2!")
+    print("Executing test2 !")
     assert True
-    print("\nLeaving test2!")
+    # print("\nLeaving test2!")
