@@ -1,0 +1,13 @@
+Setting the price of individual items
+Adding individual items to the checkout
+The current total cost for all the items added
+Add and apply discounts on selected items when N number are purchased
+
+
+Can create an instance of the Checkout class
+Can add an item price
+Can add an item
+Can calculate the current totalCan add multiple items and get correct total
+Can add discount rules
+Can appyl discount rules to the total
+Exception is Thrown for Item added without a price
